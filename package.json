@@ -1,0 +1,53 @@
+{
+  "name": "painnn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "packageManager": "npm@10.5.2",
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom",
+    "react-is": "18.2.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.78.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "easymde": "^2.14.0",
+    "ethers": "^6.13.5",
+    "is": "^3.3.0",
+    "lucide-react": "^0.479.0",
+    "markdown-it": "^14.1.0",
+    "next": "^15.3.0-canary.9",
+    "next-auth": "^5.0.0-beta.25",
+    "next-sanity": "^9.8.58-canary.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-typed": "^2.0.12",
+    "sanity": "^3.78.1",
+    "sanity-plugin-markdown": "^5.1.0",
+    "server-only": "^0.0.1",
+    "styled-components": "^6.1.15",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
+    "web3": "^4.16.0",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
