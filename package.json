@@ -3,19 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-   "install:clean": "rm -rf node_modules && npm install --legacy-peer-deps",
-  "vercel-build": "npm run install:clean && next build"
+    "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "install:clean": "rm -rf node_modules && npm install --legacy-peer-deps",
+  "vercel-build": "npm run install:clean && npm run build"
   },
   "packageManager": "npm@10.5.2",
-  "overrides": {
-    "react": "$react",
-    "react-dom": "$react-dom",
-    "react-is": "18.2.0"
-  },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
     "@sanity/image-url": "^1.1.0",
@@ -30,11 +25,11 @@
     "is": "^3.3.0",
     "lucide-react": "^0.479.0",
     "markdown-it": "^14.1.0",
-    "next": "^15.3.0-canary.9",
+    "next": "^14.1.0",
     "next-auth": "^5.0.0-beta.25",
     "next-sanity": "^9.8.58-canary.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-typed": "^2.0.12",
     "sanity": "^3.78.1",
     "sanity-plugin-markdown": "^5.1.0",
