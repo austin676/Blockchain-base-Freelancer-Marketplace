@@ -34,3 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Blockchain-based Freelancer Marketplace
+
+A decentralized platform connecting freelancers and clients with escrow payments.
+
+## Tech Stack
+- Frontend: Next.js
+- Smart Contracts: Solidity
+- Blockchain: Ethereum (Ganache for local dev)
+- Tools: Truffle, ethers.js
+
+## Setup
+1. Install dependencies:
+   ```bash
+   npm install
+2.Start local blockchain:
+3.Deploy contracts:
+4.Run frontend:
+
