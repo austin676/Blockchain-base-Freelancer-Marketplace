@@ -50,6 +50,14 @@ A decentralized platform connecting freelancers and clients with escrow payments
    ```bash
    npm install
 2.Start local blockchain:
+```bash
+ganache
+```
 3.Deploy contracts:
+```bash
+truffle migrate
+```
 4.Run frontend:
+```bash
+npm run dev
 
