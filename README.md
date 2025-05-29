@@ -54,9 +54,9 @@ Ran a local Ethereum blockchain using Ganache to test transactions and smart con
 - Tools: Truffle, ethers.js
 
 ## 🚀Setup
-1. Install dependencies:
+1.Install dependencies:
 ```bash
-   npm install
+npm install
 ```
 2.Start local blockchain:
 ```bash
