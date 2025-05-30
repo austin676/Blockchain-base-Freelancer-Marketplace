@@ -7,8 +7,6 @@
   "build": "next build",
   "start": "next start",
   "lint": "next lint",
-  "install:clean": "rm -rf node_modules && npm install --legacy-peer-deps",
-  "vercel-build": "npm run install:clean && npm run build"
   },
   "packageManager": "npm@10.5.2",
   "dependencies": {
