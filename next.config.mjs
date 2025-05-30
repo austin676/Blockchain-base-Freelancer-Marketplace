@@ -10,7 +10,7 @@ const nextConfig = {
         ],
       },
       experimental: {
-        ppr: "incremental",
+       // ppr: "incremental",
       },
       devIndicators: {
         position: "bottom-right",
